@@ -1,4 +1,5 @@
 ﻿using HarvirsBookStore.Models;
+using HarvirsBookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
