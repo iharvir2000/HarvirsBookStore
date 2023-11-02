@@ -45,3 +45,5 @@ i create a new folder named Repository in HarvirsBooks.DataAccess at 1.48pm
 
 after that in Repository folder again i create new folder named IRepository at 1.50 then i add a new class in IRepository
 named IRepository.cs at 1.52pm
+
+In IRepository.cs i add code at 2.00pm and fortunately there is no error in this..........!!!!!!!

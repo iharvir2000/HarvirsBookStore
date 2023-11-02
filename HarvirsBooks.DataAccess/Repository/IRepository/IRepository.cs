@@ -2,11 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace HarvirsBooks.DataAccess.Repository.IRepository
 {
-    class IRepository
+    public interface IRepository<T> where T : class
     {
+        T Get(int id);
+
+        IEnumerable<T> GetAll(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderby = null,
+            string includeProperties = null
+            );
+
+
+
+
     }
 }
