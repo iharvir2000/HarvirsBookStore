@@ -36,4 +36,12 @@ i modify the line 16th in applicationdbcontext.cs at 1.37pm
 
 Then i re run the migration and one error is occur in pm console at 1.40pm
 so i delete one file in migration and resolve the error after that i update the data base at 1.45pm
+................................................................................
+.........................................................
+....................................
 
+i create a new folder named Repository in HarvirsBooks.DataAccess at 1.48pm
+
+
+after that in Repository folder again i create new folder named IRepository at 1.50 then i add a new class in IRepository
+named IRepository.cs at 1.52pm
