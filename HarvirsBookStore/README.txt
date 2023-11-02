@@ -53,3 +53,4 @@ then at 2.06pm i add some more code in IRepository.cs
 After that in Repository folder i create new class Repository.cs at 2.13pm
 i copy the data from the file that is already given and paste it in Repository.cs file at 2.16pm
 Then according to the next step i create 2 more files in repository folder named CategoryRepository and ICategoryRepository at 2.25pm
+i remove 2 lines from the top in the ICategoryRepository.cs and also modify the class of that file at 2.29pm
