@@ -66,3 +66,15 @@ Modify categoryrepository.cs at 2.59pm................!!!!!!!!!!!!!!!!!!!!!!
 Then at 3.03pm in irepository folder i create new interface(ISP_Call.cs).................
 
 modify ISP_Call.cs at 3.25pm...............................................
+
+After that i create a new class in repository folder at 3.27pm........................
+---------------------------------------------
+---------------------
+------------
+------
+I spend a lot of time on SP_Call.cs and still i have a lot of errors in this file at 5.31pm
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+_____________________________
+--------------------
+
+at the end i commit this folder with the errors..............................
