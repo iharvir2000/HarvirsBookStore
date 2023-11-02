@@ -25,3 +25,5 @@ i go to appsettings.json and modify the line 3rd
 Then on the next step i opened the nuget package console at 1.03pm
 when the migration is completed i update the database at 1.10pm
 after that i review the sqlserver object explorer and i checked the all tables that are mentioned in the slides 
+Then i create a new file in HarvirsBooks.Models named Category.cs at 1.25pm
+and i add some code in the category.cs from the slides 1.27pm
