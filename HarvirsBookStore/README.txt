@@ -49,3 +49,6 @@ named IRepository.cs at 1.52pm
 In IRepository.cs i add code at 2.00pm and fortunately there is no error in this..........!!!!!!!
 
 then at 2.06pm i add some more code in IRepository.cs
+
+After that in Repository folder i create new class Repository.cs at 2.13pm
+i copy the data from the file that is already given and paste it in Repository.cs file at 2.16pm
