@@ -33,3 +33,7 @@ when i do this opreation a new file is created in the migrations folder named Ad
 -------------------------------------
 After that at 1.34pm i move to applicationdbcontext.cs in Harvirbooks.Dataaccess
 i modify the line 16th in applicationdbcontext.cs at 1.37pm
+
+Then i re run the migration and one error is occur in pm console at 1.40pm
+so i delete one file in migration and resolve the error after that i update the data base at 1.45pm
+
