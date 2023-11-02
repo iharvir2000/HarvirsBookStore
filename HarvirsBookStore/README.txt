@@ -60,3 +60,9 @@ At 2.35pm i add some code in CategoryRepository.cs
 ---------------
 ------
 Modify categoryrepository.cs at 2.59pm................!!!!!!!!!!!!!!!!!!!!!!
+------------------------
+---------------
+-----
+Then at 3.03pm in irepository folder i create new interface(ISP_Call.cs).................
+
+modify ISP_Call.cs at 3.25pm...............................................
