@@ -47,3 +47,5 @@ after that in Repository folder again i create new folder named IRepository at 1
 named IRepository.cs at 1.52pm
 
 In IRepository.cs i add code at 2.00pm and fortunately there is no error in this..........!!!!!!!
+
+then at 2.06pm i add some more code in IRepository.cs
