@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace HarvirsBooks.DataAccess.Repository
 {
-    public class SP_Call : SP_CallBase1, ISP_Call
+    public class SP_Call :  ISP_Call
     {
         // access the database
         private readonly ApplicationDbContext _db;
