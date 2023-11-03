@@ -28,7 +28,7 @@ namespace HarvirsBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
         
-            // removed 'options => options.SignIn.RequireConfirmedAccount = true'
+
             services.AddDefaultIdentity<IdentityUser>() 
              .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
