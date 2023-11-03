@@ -1,3 +1,4 @@
+
 using HarvirsBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,7 +29,7 @@ namespace HarvirsBookStore
           /*  / options => options.SignIn.RequireConfirmedAccount = true /*/
             services.AddDefaultIdentity<IdentityUser>() 
              .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, >
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
