@@ -1,4 +1,5 @@
-﻿using Abp.Domain.Uow;
+﻿using HarvirsBooks.Models;
+using Abp.Domain.Uow;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,27 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
         {
             return View();
         }
+        public IActionResult upsert(int? id) // action method for upsert
+        {
+            Category category = new Category(); // using Harvirsbooks.Models
+            if(id == null)
+            {
+                // this is for create 
+                return View(category);
+            }
+            // this is for edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if(category == null)
+            {
+                return NotFound();
+            }
+            return View();
+        }
 
+        private IActionResult View(Category category)
+        {
+            throw new NotImplementedException();
+        }
 
         private IActionResult View()
         {
