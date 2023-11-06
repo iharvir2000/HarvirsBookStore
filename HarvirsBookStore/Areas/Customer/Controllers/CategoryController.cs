@@ -30,12 +30,28 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
                 // this is for create 
                 return View(category);
             }
-            // this is for edit
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if(category == null)
+            // use HTTP POST to define the post-action method
+            [HttpPost]
+            [ValidateAntiForgeryToken]
+            public IActionResult Upsert(Category category);
             {
-                return NotFound();
+                if(ModelState.IsValid)
+                {
+                    if(category.Id == 0)
+                    {
+                        _unitOfWork.Category.Add(category);
+                    
+                    }
+                    else
+                    {
+                        _unitOfWork.Category.Update(category);
+                    }
+                    _unitOfWork.save
+                        return RedirectToAction(nameof(Index));  // to see all 
+                }
+
             }
+           
             return View(category);
         }
 
