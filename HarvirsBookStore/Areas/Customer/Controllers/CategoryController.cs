@@ -22,6 +22,7 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
             return View();
         }
 
+
         private IActionResult View()
         {
             throw new NotImplementedException();
