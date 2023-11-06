@@ -36,7 +36,7 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
 
         private IActionResult View(Category category)

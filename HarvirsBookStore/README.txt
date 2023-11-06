@@ -1,24 +1,4 @@
-﻿AGAIN PRACCCTICINGGG THIS ASSIGNMENTV AFTER UR CLASS
-4:31PM----------------------------
-31STTTTT oCTOBER-----------------
-4:33PM
-cREATE A GITHUB
-4:34
-setttingg up 1.1
-4:39pm
-settting up 1.2
---------------------------------
-[Boootstrap: download the theme from boootswatch.com]
-
-
-
-
-
-
-
-
-
-At 1.00pm 2/11/2023 i start my assignment 2 part 2 
+﻿At 1.00pm 2/11/2023 i start my assignment 2 part 2 
 first the review the slides and then start my project
 --------------------------------------------------------------------
 i go to appsettings.json and modify the line 3rd 
@@ -144,3 +124,13 @@ now i completely update the index.cshtml.........at 12.20pm.....
  after that i add the data in this file from the given files in content at 4.35 pm
  at 4.36pm i move to the index.cshtml file and i modify that file by adding some data.....
  again i move to categorycontroller.cs and modify this file 5.04pm...... but at this time it shows 2 errors........
+
+ In category folder i add a view named Upsert.cshtml......
+ and i just paste the code here from the given files..........at 5.09pm..........
+
+
+ then i create a view in shared folder named_CreateAndBackToList at 5.16pm......
+ i add code in this file and i have no error 5.22pm.....
+
+ then i create another view in shared folder named_EditAndBackToList at 5.23pm....
+ i again add code in this file and same i donot have any error in this file 5.28pm.........
