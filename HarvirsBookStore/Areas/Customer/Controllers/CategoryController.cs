@@ -42,11 +42,12 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
                         _unitOfWork.Category.Add(category);
                     
                     }
+                    
                     else
                     {
                         _unitOfWork.Category.Update(category);
                     }
-                    _unitOfWork.save
+                    _unitOfWork.SaveChanges
                         return RedirectToAction(nameof(Index));  // to see all 
                 }
 
@@ -75,11 +76,17 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-
-        private IActionResult Json(object p)
+        [HttpDelete]
+        private IActionResult Delete(int id)
         {
-            throw new NotImplementedException();
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return json(new { success = false, message = "Delete Successfull" });
         }
-        #endregion
-    }
+            #endregion
+
+    
+
+        }
 }
