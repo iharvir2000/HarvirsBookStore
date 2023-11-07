@@ -24,7 +24,7 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
         }
         public IActionResult upsert(int? id) // action method for upsert
         {
-            Category category = new Category(); // using Harvirsbooks.Models
+            Category category = new(); // using Harvirsbooks.Models
             if(id == null)
             {
                 // this is for create 
@@ -73,7 +73,7 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
         public IActionResult GetAll()
         {
             // return NotFound();
-            var allObj = _unitOfWork.Category.GetAll();
+            var allObj = _unitOfWork. Category.GetAll();
             return Json(new { data = allObj });
         }
         [HttpDelete]
