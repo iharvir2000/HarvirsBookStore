@@ -25,34 +25,31 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
         public IActionResult upsert(int? id) // action method for upsert
         {
             Category category = new(); // using Harvirsbooks.Models
-            if(id == null)
+            if (id == null)
             {
                 // this is for create 
                 return View(category);
             }
-            // use HTTP POST to define the post-action method
-            [HttpPost]
-            [ValidateAntiForgeryToken]
-            public IActionResult Upsert(Category category);
+
             {
-                if(ModelState.IsValid)
+                if (ModelState.IsValid)
                 {
-                    if(category.Id == 0)
+                    if (category.Id == 0)
                     {
                         _unitOfWork.Category.Add(category);
-                    
+
                     }
-                    
+
                     else
                     {
                         _unitOfWork.Category.Update(category);
                     }
-                    _unitOfWork.SaveChanges
-                        return RedirectToAction(nameof(Index));  // to see all 
+                    _unitOfWork.SaveChanges();
+                    return RedirectToAction(nameof(Index));  // to see all 
                 }
 
             }
-           
+
             return View(category);
         }
 
@@ -73,20 +70,33 @@ namespace HarvirsBookStore.Areas.Customer.Controllers
         public IActionResult GetAll()
         {
             // return NotFound();
-            var allObj = _unitOfWork. Category.GetAll();
+            var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
+
+        private IActionResult Json(object p)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpDelete]
         private IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.Category.Get(id);
             if (objFromDb == null)
             {
-                return json(new { success = false, message = "Delete Successfull" });
-        }
+                return JsonResult(new { success = false, message = "Delete Successfull" });
+            }
             #endregion
 
-    
+
 
         }
+
+        private IActionResult JsonResult(object p)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
+
