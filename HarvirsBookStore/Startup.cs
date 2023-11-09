@@ -1,6 +1,6 @@
 
-using Abp.Domain.Uow;
 using HarvirsBookStore.DataAccess.Data;
+using HarvirsBooks.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -31,7 +31,7 @@ namespace HarvirsBookStore
 
             services.AddDefaultIdentity<IdentityUser>() 
              .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<IUnitOfWork, IUnitOfWork>();
+            services.AddScoped<UnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

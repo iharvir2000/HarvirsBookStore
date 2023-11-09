@@ -53,7 +53,7 @@ function Delete(url) {
                         toastr.error(data.message);
                     }
                 }
-            })
+            });
         }
-    }
+    });
 }

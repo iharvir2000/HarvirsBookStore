@@ -1,6 +1,8 @@
-﻿namespace HarvirsBooks.DataAccess.Repository.IRepository
+﻿using System;
+
+namespace HarvirsBooks.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork
+    interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
 

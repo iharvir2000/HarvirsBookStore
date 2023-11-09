@@ -19,7 +19,7 @@ namespace HarvirsBooks.DataAccess.Repository
         }
 
 
-        public void update(Category category)
+        public void Update(Category category)
         {
             // use .NET LINQ to retrieve the first or default category object,
             // then pass the id as a generic entity  which matches the Category ID
