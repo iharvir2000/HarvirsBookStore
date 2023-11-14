@@ -1,3 +1,5 @@
-# HarvirsBookStore
+# HarvirsBookStore part 2
+This project started on November 11 2023 at 1.00pm, when assignment 2 part 2 was started. A number of new files and folders were made for example migration databases and altering appsettings.json. But there were some troubles detected resulting in errors in SP_Call.cs and other files, and despite the problems. Resuming on 3/11/2023 at 11.12am, my main focus is to find out all the errors in category.cs, SP_Call.cs. Eventually, the decision was made to move forward except the warnings. after that it is required to complete the index.cshtml file and also create new folder and razor view. Then my next work started up again by4.26pm on November 6, 2023 with the addition of new js file and changes to categorycontroller.cs. problems continued with the new modifications. by the struggling of all these errors leading to temporary break evening with plans to resume next morning. Then on the next day work resumed at 1.30pm, a considerable amount of time was spent to check all the errors at 2.30pm and sort out all errors. overall the completion of the 2nd part of the project was chracterized by fixing the errors and dedication to finish the task. Despite obstacles, the project was eventually successful.
 
-lk,re,re,re,re,re,re,re,re,rejklkjdddddddddddddddddd
+
+
