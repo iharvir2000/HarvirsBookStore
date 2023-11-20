@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace HarvirsBookStore.Areas.Admin.Controllers
 {
-    public class ProductController1 : Controller
+    public class ProductController : Controller
     {
         [Area("Admin")]
         public class ProductController : Controller
@@ -32,7 +32,6 @@ namespace HarvirsBookStore.Areas.Admin.Controllers
             }
 
 
-       
         }
     }
 }
