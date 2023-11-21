@@ -9,13 +9,13 @@ namespace HarvirsBooks.Models
 {
     class CoverType
     {
-        public class Category
+        public class CoverType
         {
             [Key]
 
             public int Id { get; set; }
 
-            [Display(Name = "Category Name")]
+            [Display(Name = "CoverType Name")]
             [Required]
             [MaxLength(50)]
 
@@ -23,3 +23,4 @@ namespace HarvirsBooks.Models
         }
     }
 }
+
