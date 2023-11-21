@@ -209,3 +209,14 @@ after few minutes i start my work on my project.................................
  i modify the productcontroller file at 5.36pm.........................
 
  After that i create a viewmodel in Model's Project i face errors in productcontroller.cs at5.56pm and i go to home because of depression.....................
+
+
+
+
+
+
+
+ 21/11/2023 at 2.03pm i delete all my previous work for part 3
+
+
+ and restart my work.............................
