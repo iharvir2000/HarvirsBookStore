@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using HarvirsBooks.DataAccess.Repository.IRepository;
 
 namespace HarvirsBookStore
 {
@@ -27,13 +28,13 @@ namespace HarvirsBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
-        
 
-            services.AddDefaultIdentity<IdentityUser>() 
-             .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddDefaultIdentity<IdentityUser>()//options => options.SignIn.RequireConfirmedAccount = true
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

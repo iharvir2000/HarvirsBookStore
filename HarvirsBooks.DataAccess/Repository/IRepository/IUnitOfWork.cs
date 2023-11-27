@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace HarvirsBooks.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
-        ICategoryRepository CoverType { get; }
-
         ISP_Call SP_Call { get; }
+        ICoverTypeRepository CoverType { get; }
+
+
+        void Save();
     }
 }

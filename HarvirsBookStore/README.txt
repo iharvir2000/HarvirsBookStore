@@ -183,50 +183,13 @@ ON  16/11/2023 at 4.54pm i start working on my project part 3
 first i review all the slides of section 1 and i observe the data
 
 after few minutes i start my work on my project..................................................
- i start the section 1 from the 2nd step at 4.56pm.......................................
-
- First i create new class in HarvirBooks.models named product.cs-----------------------------------------------------at 4.57pm..........
-
- I complete working on product.cs........................at 5.07pm............
-
- Then i move to ApplicationDbContext.cs.......at 5.08pm..............
- i work on file ApplicationDbContext.cs and i add some code in this file......
- then when i do next in PM console and add the command to add my product to the database
- but when i add the command to the PM console it shows me errors................at 5.15pm./..///////.//././/...././//
 
 
+2023-11-27
+11:28am
+started Part3 section 1, i have error in previous work, so I started part 3 again and created migration. 
+name of file is  20231127162814_AddCoverTypeToDb.Designer.
 
+11:37am  created CoverTypeController and added to Nav bar...............................
 
- i create some files in my project and i work in these files at 5.06pm...............
-
-
-
- after that i face some problems and i decide to start the section 2 first...............................
-
-
- i go to Areas>>>>Admin>>>>> and i create a new controller ProductController.cs.............at 5.08pm...............
-
- i modify the productcontroller file at 5.36pm.........................
-
- After that i create a viewmodel in Model's Project i face errors in productcontroller.cs at5.56pm and i go to home because of depression.....................
-
-
-
-
-
-
-
- 21/11/2023 at 2.03pm i delete all my previous work for part 3
-
-
- and restart my work.............................
-
- first i add covertype.cs in HarvirsBooks.Models folder at 2.09pm/.......................
-
-modify covertype.cs 2.10pm
-
-add CoverTypeRepository in Repository folder 2.11pm................
-
-i add ICovertype repository in IRespository
-
-modify files 2.34pm/...........................
+11:51am  complete CRUD operations on Cover Type and commit on github....................................
