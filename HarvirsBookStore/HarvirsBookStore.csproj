@@ -25,4 +25,8 @@
     <ProjectReference Include="..\HarvirsBooks.Utility\HarvirsBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>
