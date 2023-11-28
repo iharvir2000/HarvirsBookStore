@@ -209,3 +209,34 @@ name of file is  20231127162814_AddCoverTypeToDb.Designer.
 12:47pm section 2 complete and i will commit to github...............
 
 1:05pm section 3 complete, added upsert and made some changes in product controller.
+
+
+
+now i start the part 4 at 8.06 pm......................................................................
+
+
+8:22pm made changes in index file. and to resolve the previous ajax error i made changes in product.js and index view of product.....
+
+In product.js the in category name the N was capital, so i changes it. and replaced Price to listPrice.......................
+
+
+8:27pm made changes in product controller in https post and https get.......................................
+
+8:31pm added 1 new line in startup.cs
+
+8:34pm the image was not showing....
+
+
+8:40pm there was error so i changed the code of homecontroller......................
+
+
+
+8:55pm I compared the files of bulkybook and i was missing some code in product upsert for image, so i added it........!!!!!!!
+
+
+8:59pm I tested it and it runs perfectly..................
+
+9:04pm Assignment 4 complete and i commit it to github.........................
+
+
+9:06pm Finally, now i can go to my home.......... ;)

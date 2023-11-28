@@ -33,6 +33,7 @@ namespace HarvirsBookStore
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation(); //for part 4
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
