@@ -240,3 +240,9 @@ In product.js the in category name the N was capital, so i changes it. and repla
 
 
 9:06pm Finally, now i can go to my home.......... ;)
+
+
+2023-12-05
+1:20pm
+published my site to azure student...................
+https://harvirsbookstore20231205131343.azurewebsites.net
